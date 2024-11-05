@@ -1,4 +1,4 @@
-namespace Script.Units.Script
+namespace Script
 {
 public enum ScriptState
 {

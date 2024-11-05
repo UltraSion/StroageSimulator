@@ -2,8 +2,6 @@ using System;
 using System.Collections.Generic;
 using System.Linq;
 
-namespace Script.DataStructDef
-{
 public class InsertSortQueue<T>
 {
     private readonly Func<T, T, bool> compare;
@@ -34,5 +32,4 @@ public class InsertSortQueue<T>
     }
 
     public bool Contains(T t) => list.Contains(t);
-}
 }

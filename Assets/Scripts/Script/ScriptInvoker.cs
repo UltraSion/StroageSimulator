@@ -1,6 +1,6 @@
 ﻿using System.Collections.Generic;
 
-namespace Script.Units.Script
+namespace Script
 {
 public class ScriptInvoker
 {

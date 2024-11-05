@@ -1,8 +1,6 @@
 ﻿using System.Collections.Generic;
 using UnityEngine;
 
-namespace Script
-{
 public class StorageManger
 {
     public List<Storage> Storages;
@@ -15,5 +13,4 @@ public class StorageManger
         var storage = GameObject.Instantiate(storagePrefab, position, Quaternion.identity);
         Storages.Add(storage);
     }
-}
 }
